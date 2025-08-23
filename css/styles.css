@@ -309,10 +309,10 @@ button {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/office-min.jpg);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-position: center;
   background-size: cover;
-  max-width: 320px;
+  min-width: 320px;
   padding: 0;
   height: 432px;
 }

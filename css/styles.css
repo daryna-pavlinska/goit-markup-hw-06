@@ -304,7 +304,6 @@ button {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/office-min.jpg);
-  /* background-repeat: no-repeat; */
   background-position: center;
   background-size: cover;
   min-width: 320px;
@@ -384,7 +383,6 @@ button {
 .advantages-list {
   display: flex;
   gap: 72px;
-  /* flex-wrap: wrap; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -681,7 +679,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  max-width: 288px;
 }
 .container-social-network {
   display: flex;
@@ -792,15 +790,14 @@ input::placeholder {
     width: 264px;
   }
   .bottom-subscribe {
-    /* flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 16px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 24px;
+  }
+  .footer-text {
+    max-width: 264px;
   }
   .footer-logo-container {
     align-items: start;
